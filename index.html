@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ozone Page</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/images/header/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" href="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <header>
+          <section class="tab-bar">
+            <div class="container">
+              <div class="row d-flex">
+                <div class="col-md-3 col-7 logo d-flex">  
+                  <a href="#">
+                      <img src="./assets/images/header/logo.png" alt="Logo công ty">
+                  </a>
+                  <p class="brand-company t-center">Materials Importer & Constructon</p>
+                </div>
+                <div class="col-md-9 col-12 navbar">
+                    <div class="tab-contact d-flex">
+                      <div class="tab-item d-flex">
+                        <a href="#">
+                          <img src="./assets/images/header/hotline.png" alt="Logo hotline">
+                        </a>
+                        <div class="tab-text d-flex">
+                          <div class="hotline">HOTLINE</div>
+                          <a href="tel: 028 6652 3966">028 6652 3966</a>
+                        </div>      
+                      </div>
+                      <div class="tab-item d-flex">
+                        <a href="#">
+                          <img src="./assets/images/header/email.png" alt="Logo email">
+                        </a>
+                        <div class="tab-text d-flex">
+                          <div class="hotline">EMAIL</div>
+                          <a href="mailto:info@ozonejsc.vn">info@ozonejsc.vn</a>
+                        </div>      
+                      </div>
+                      <div class="tab-item d-flex">
+                        <a href="#">
+                          <img src="./assets/images/header/time.png" alt="Logo thời gian">
+                        </a>
+                        <div class="tab-text d-flex">
+                          <div class="hotline">GIỜ LÀM VIỆC</div>
+                          <a href="#">Mon. - Fri. 08AM - 18PM</a>
+                        </div>      
+                      </div>
+                     
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="header">
+            <div class="banner">
+                <div class="header-menu">  
+                    <ul class="navigation move"> 
+                            <li class="item-list">
+                                <a href="#" class="active">TRANG CHỦ</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="#">DỊCH VỤ</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="#">ALBUM ẢNH</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="#">CHỨNG NHẬN</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="#">LIÊN HỆ</a>
+                            </li>
+                    </ul>
+                    <div class="toggleMenu container" onclick="toggleMenu();">
+                      
+                    </div>
+                       
+                </div>
+                <div class="header-content container">
+                        <div class="row justify-content-center">
+                            <div class="detail-header">
+                               <div class="col-lg-8 col-12 header-left">
+                                   <div class="title-header wow animate__backInLeft" data-wow-duration="2s" style="visibility:visible;
+                                   animation-duration: 2s;animation-name: backInLeft;">THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</div>
+                                   <div class="detail-title-header animate__animated animate__backInRight" data-wow-duration="2s" style="visibility:visible;
+                                   animation-duration: 2s;animation-name: backInRight;">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                   </div>
+                                   <div class="btn-readmore-header wow animate__backInUp" data-wow-duration="2s" style="visibility:visible;
+                                   animation-duration: 2s;animation-name: backInUp;">
+                                       <button><a href="#">Xem thêm</a></button>
+                                       <div class="arrow-right-header">
+                                           <img src="./assets/images/header/arrow-right1.png" alt="Nút qua phải header">
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-lg-4 col-12 header-right">
+                                   <div class="social-header">
+                                       <a href="#">
+                                           <i class="fab fa-twitter"></i>
+                                        </a>
+                                       <a href="#">
+                                           <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="polygon">
+                       
+                    </div> -->
+                </div>
+            
+          </section>
+    </header>
+    <main>
+      <section class="about-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12 wow animate__slideInLeft" data-wow-duration="2s" style="visibility: visible;
+            animation-duration:2s ;animation-name: slideInLeft;">
+              <div class="about-img">
+                <img src="./assets/images/about/about_us.jpg" alt="Ảnh about" />
+                <div class="information-img bk-main">
+                  <p class="information-text">
+                    Vật liệu tự nhiên trong xây dựng dân dụng
+                  </p>
+                </div>
+                <!-- <div class="quote">
+                  <img src="./assets/images/about/quote.png" alt="Chú thích">
+                </div> -->
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 wow animate__slideInRight" data-wow-duration="2s" style="visibility: visible;
+            animation-duration:2s ;animation-name: slideInRight;"">
+              <div class="introduction-about">
+                <p class="name-company mg-0">OZONE COMPANY</p>
+                <p class="title mg-0">VỀ CHÚNG TÔI</p>
+                <p class="content-title">
+                  Thị trường xây dựng tại Việt Nam đang có những bước chuyển
+                  mình vô cùng mạnh mẽ trong xây dựng cơ bản, đi kèm với nó là
+                  thị trường. Vật Liệu xây dựng phát triển đa dạng với nhiều
+                  phân khúc và chất lượng khác nhau. Với mục tiêu giúp khách
+                  hàng tiếp cận được các sản phẩm vật liệu đạt tiêu chuẩn Kỹ
+                  thuật – Mỹ thuật, giá thành hợp lý cùng các dịch vụ chuyên
+                  nghiệp, Công Ty Ozone đã được thành lập để là cầu nối giữa nhà
+                  sản xuất và khách hàng. Các loại vật liệu hiện nay cần đạt các
+                  tiêu chí cao về kiến trúc nhưng không được thay đổi vật liệu
+                  gốc. Vật liệu đưa vào sử dụng cần có độ bền cao về chất liệu
+                  và mầu sắc.<br />
+                </p>
+                <p class="content-title mg-0">
+                  Đi cùng sự phát triển của xã hội các vật liệu xây dựng mới dần
+                  được đưa vào sử dụng, chúng cần thỏa mãn các tiêu chí về...
+                </p>
+                <div class="btn-about d-flex">
+                  <button class="btn-readmore bk-main2">
+                    <a href="#">Xem thêm</a>
+                  </button>
+                  <div class="arrow-right">
+                    <a href="#">
+                      <img
+                        src="./assets/images/header/arrow-right1.png"
+                        alt="Xem thêm"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="service-content container">
+              <div class="row service-1">
+                <div class="item-active col-md-5 offset-md-1 col-12 wow animate__slideInLeft" animate-wow-duration="3s" 
+                  style="visibility:visible; animation-duration: 3s; animation-name: slideInLeft;">
+                  <div class="item-top">
+                    <img src="./assets/images/service/advisory.png" alt="Logo tư vấn khách hàng" class="logo-item1"/>
+                    <img src="./assets/images/service/1.png" alt="Số 1" class="number"/>
+                  </div>
+                  <div class="item-bottom">
+                    <div class="title-service">1. TƯ VẤN KHÁCH HÀNG</div>
+                    <div class="detail-service">
+                      • Nhận thông tin từ khách hàng. <br />• Tư vấn vật liệu,
+                      tư vấn nguồn cung cấp.
+                    </div>
+                  </div>
+                </div>
+                <div class="item-active col-md-5 col-12 wow animate__slideInRight" animate-wow-duration="3s" 
+                  style="background: #265bc5; visibility:visible; animation-duration: 3s; animation-name: slideInRight;">
+                  <div class="item-top">
+                    <img src="./assets/images/service/search-material.png"  alt="Logo tìm kiếm vật liệu" class="logo-item1"/>
+                    <img
+                      src="./assets/images/service/2.png"
+                      alt="Số 1"
+                      class="number"
+                    />
+                  </div>
+                  <div class="item-bottom">
+                    <div class="title-service" style="color: white">
+                      2. TÌM KIẾM VẬT LIỆU
+                    </div>
+                    <div class="detail-service" style="color: white">
+                      • Tìm kiếm nhà cung cấp có sản phẩm phù hợp. <br />• Kiểm
+                      tra sản phẩm theo các tiêu chí của khách hàng.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row service-2">
+                <div class="item-active col-md-5 offset-md-1 col-12  wow animate__slideInLeft" animate-wow-duration="3s" 
+                style="visibility:visible; animation-duration: 3s; animation-name: slideInLeft;">
+                  <div class="item-top">
+                    <img
+                      src="./assets/images/service/explanation.png"
+                      alt="Logo trình mẫu, giải trình"
+                      class="logo-item1"
+                    />
+                    <img
+                      src="./assets/images/service/3.png"
+                      alt="Số 3"
+                      class="number"
+                    />
+                  </div>
+                  <div class="item-bottom">
+                    <div class="title-service">3. TRÌNH MẪU - GIẢI TRÌNH</div>
+                    <div class="detail-service">
+                      • Trình mẫu vật liệu theo yêu cầu của khách hàng. <br />
+                      • Giải trình các thông số kỹ thuật, biện pháp lắp đặt.
+                    </div>
+                  </div>
+                </div>
+                <div class="item-active col-md-5 col-12 wow animate__slideInRight" animate-wow-duration="3s" 
+                style="visibility:visible; animation-duration: 3s; animation-name: slideInRight;">
+                  <div class="item-top">
+                    <img
+                      src="./assets/images/service/Delivery-payment.png"
+                      alt="Logo tư vấn khách hàng"
+                      class="logo-item1"
+                    />
+                    <img
+                      src="./assets/images/service/4.png"
+                      alt="Số 4"
+                      class="number"
+                    />
+                  </div>
+                  <div class="item-bottom">
+                    <div class="title-service">4. GIAO HÀNG - THANH TOÁN</div>
+                    <div class="detail-service">
+                      •Thống nhất hợp đồng cung ứng vật tư. <br />
+                      •Thống nhất phương thức thanh toán và các điều khoản.
+                      <br />
+                      •Cung cấp tài liệu liên quan đến sản phẩm.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="new-content">
+              <div class="row header-new justify-content-center">
+                <p class="ozone-new">OZONE COMPANY</p>
+                <p class="ozone-newtitle">TIN TỨC</p>
+              </div>
+              <div class="row main-new">
+                <div class="col-md-4 col-12 item-1">
+                  <div class="detail-item-1">
+                    <img
+                      src="./assets/images/new/new1.png"
+                      alt="Tin tức 1"
+                      class="img-new"
+                    />
+                    <div class="description-item">
+                      <div class="description-item-content">
+                        <p class="description-title">
+                          Can your business become better with new technology?
+                        </p>
+                        <p class="description-detail">
+                          Lorem ipsum dolor sit amet, consetetur sadipscing
+                          elitr, sed diam nonumy eirmod tempor invidunt ut
+                          labore et dolore magna aliquyam erat, sed diam
+                          voluptua
+                        </p>
+                      </div>
+                    </div>
+                    <div class="calendar">
+                      <div class="choose-calendar">
+                        <img
+                          src="./assets/images/new/calendar.png"
+                          alt="Lịch"
+                          class="icon-calendar"
+                        />
+                        <p>20/08/2020</p>
+                      </div>
+                      <div class="readmore-calendar">
+                        <p><strong>Xem thêm</strong></p>
+                        <img
+                          src="./assets/images/new/arrow-right2.png"
+                          alt="Mũi tên xem thêm"
+                          class="icon-arrow-right2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 item-1">
+                  <div class="detail-item-1">
+                    <img
+                      src="./assets/images/new/new2.png"
+                      alt="Tin tức 2"
+                      class="img-new"
+                    />
+                    <div class="description-item">
+                      <div class="description-item-content">
+                        <p class="description-title">
+                          Can your business become better with new technology?
+                        </p>
+                        <p class="description-detail">
+                          Lorem ipsum dolor sit amet, consetetur sadipscing
+                          elitr, sed diam nonumy eirmod tempor invidunt ut
+                          labore et dolore magna aliquyam erat, sed diam
+                          voluptua
+                        </p>
+                      </div>
+                    </div>
+                    <div class="calendar">
+                      <div class="choose-calendar">
+                        <img
+                          src="./assets/images/new/calendar.png"
+                          alt="Lịch"
+                          class="icon-calendar"
+                        />
+                        <p>20/08/2020</p>
+                      </div>
+                      <div class="readmore-calendar">
+                        <p><strong>Xem thêm</strong></p>
+                        <img
+                          src="./assets/images/new/arrow-right2.png"
+                          alt="Mũi tên xem thêm"
+                          class="icon-arrow-right2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 item-1">
+                  <div class="detail-item-1">
+                    <img
+                      src="./assets/images/new/new3.png"
+                      alt="Tin tức 3"
+                      class="img-new"
+                    />
+                    <div class="description-item">
+                      <div class="description-item-content">
+                        <p class="description-title">
+                          Can your business become better with new technology?
+                        </p>
+                        <p class="description-detail">
+                          Lorem ipsum dolor sit amet, consetetur sadipscing
+                          elitr, sed diam nonumy eirmod tempor invidunt ut
+                          labore et dolore magna aliquyam erat, sed diam
+                          voluptua
+                        </p>
+                      </div>
+                    </div>
+                    <div class="calendar">
+                      <div class="choose-calendar">
+                        <img
+                          src="./assets/images/new/calendar.png"
+                          alt="Lịch"
+                          class="icon-calendar"
+                        />
+                        <p>20/08/2020</p>
+                      </div>
+                      <div class="readmore-calendar">
+                        <p><strong>Xem thêm</strong></p>
+                        <img
+                          src="./assets/images/new/arrow-right2.png"
+                          alt="Mũi tên xem thêm"
+                          class="icon-arrow-right2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row footer-new  wow animate__fadeInUp" animate-wow-duration="2s" 
+              style="visibility:visible; animation-duration: 2s; animation-name: fadeInUp;">
+                <button class="btn-seeall"><a href="#">Xem tất cả</a></button>
+                <div class="arrow-right">
+                  <img
+                    src="./assets/images/new/arrow-right1.png"
+                    alt="Mũi tên xem tất cả"
+                    class="icon-arrow-right1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="client">
+        <div class="client-content ">
+          <div class="client-header container">
+                <div class="title-ozone-client">OZONE COMPANY</div>
+                <div class="title-row">KHÁCH HÀNG</div>
+          </div>
+          <div class="client-main container">
+                <div class="row client-main justify-content-center">
+                    <div class=" col-lg-4 offset-lg-1 col-12 client-left">
+                        <img src="./assets/images/client/avata-client.jpg" alt="Ảnh đại diện khách hàng 1" class="avata-client">
+                        <div class="information-img bk-main">
+                            <div class="name-client">JONATHAN ADAMS</div>
+                            <div class="position-client">Founder, Great Wall Ltd.</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6  col-12  client-right">   
+                         <div class="slide-client">
+                            <div class="slide-1">
+                                 <i class="fas fa-quote-left"></i>
+                                 <div class="detail-client-right">
+                                    We challenged to complete the project in just over five months. This was an incredibly fast-track schedule, given that retrofits of this scale, as we were told by our own advisors. We challenged to complete the project in just over five months. This was an incredibly fast-track schedule, given that retrofits of this scale, as we were told by our own advisors.We challenged to complete the project in just over five months. This was an incredibly fast-track schedule, given that retrofits of this scale, as we were told by our own advisors.
+                                </div> 
+                            </div>
+                            <div class="slide-1">
+                                <i class="fas fa-quote-left"></i>
+                                <div class="detail-client-right">
+                                    By joining the team, you have a chance to work with cutting-edge technologies in video content delivery network and world-class international experts in Europe. You will work with C, C++, networking, Linux system both for user space and kernel space. 
+                                </div> 
+                            </div>
+                            <div class="slide-1">
+                                <i class="fas fa-quote-left"></i>
+                               <div class="detail-client-right">
+                                     Learning English began as Special English, which Voice of America launched in 1959. Special English newscasts and features were a primary fixture of VOA’s international shortwave broadcasts for more than half a century. In 2014, our line of products was expanded to include more English teaching materials, and the service became known as Learning English.
+                              </div> 
+                            </div>
+                            <div class="slide-1">
+                                <i class="fas fa-quote-left"></i>
+                               <div class="detail-client-right">
+                                Some language teaching methods are dull and disconnected from real life. People soon forget what they learn, or focus on words and phrases without context. Learners absorb American English through content drawn from U.S. and world news, Health and Lifestyle, Science and Technology, Arts and Culture, and other topics. Learners can build vocabulary, strengthen speaking skills and improve the ability to communicate for work, school and everyday life.
+                              </div> 
+                            </div>      
+                        </div>       
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="partner d-flex">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="partner-item d-flex">
+              <a href="#">
+                <img src="./assets/images/partner/bcg.png" alt="BCG" />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/images/partner/robmason.png"
+                  alt="Robmason"
+                />
+              </a>
+              <a href="#">
+                <img src="./assets/images/partner/ksm.png" alt="Ksm" />
+              </a>
+              <a href="#">
+                <img src="./assets/images/partner/in1.jpg" alt="INC" />
+              </a>
+              <a href="#">
+                <img src="./assets/images/partner/in2.jpg" alt="INC2" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact d-flex">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-2 col-sm-12 col-12 contact-left d-flex mg-0">
+              <p>LIÊN HỆ</p>
+            </div>
+            <div class="col-lg-10 col-12 contact-right row justify-content-center d-flex">
+              <div class="col-lg-4 col-md-3 col-sm-6 col-12 contact-item">
+                <div class="contact-img">
+                  <img src="./assets/images/contact/location.png" alt="Icon vị trí"/>
+                </div>
+                <p>
+                  No. 22, N7 street, Quarter 3, Cat Lai Ward, District 2, Ho Chi
+                  Minh City
+                </p>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-6 col-12 contact-item">
+                <div class="contact-img">
+                  <img src="./assets/images/contact/contact.png" alt="Icon phone" style="padding: 12px;"/>
+                </div>
+                <p>028 6652 3966</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-12 contact-item">
+                <div class="contact-img">
+                  <img src="./assets/images/contact/email.png" alt="Icon email" style="padding: 12px;"/>
+                </div>
+                <p>info@ozonejsc.vnskyqueen.vn
+                </p>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 contact-item">
+                <div class="contact-img">
+                  <img src="./assets/images/contact/globe.png" alt="Icon global" style="padding: 7px;"/>
+                </div>
+                <p>www.ozonejsc.vn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-12 about-company">
+              <div class="logo-company">
+                <a href="#">
+                  <img src="./assets/images/header/logo.png" alt="Logo công ty">
+                </a>
+              </div>
+              <p class="joint-stock">JOINT STOCK COMPANY</p>
+              <p>We always strive for growth and development as StylemixThemes. We don't want to have a large team, we want to have a team that works in unity. Our slogan is "Every day is the last day".</p>
+            </div>
+            <div class="col-md-3 offset-md-1 col-6 col-sm-6 col-12 about-category">
+              <div class="name-category">DANH MỤC</div>
+                <ul class="item-category">
+                    <li><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">DỊCH VỤ</a></li>
+                    <li><a href="#">ALBUM ẢNH</a></li>
+                    <li><a href="#">CHỨNG NHẬN</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-6 col-sm-6 col-12 register">
+              <div class="title-register">Đăng ký nhận tin</div>
+              <p class="receive-email mg-0">
+                Nhập địa chỉ email của bạn để nhận thông tin ưu đãi mới nhất
+              </p>
+              <div class="input-email d-flex">
+                <input type="email" placeholder="Enter email address">
+                <button>
+                  <img src="./assets/images/footer/right.png" alt="Gởi mail">
+                </button>
+              </div>
+              <div class="map">
+                <a href="#">
+                  <img src="./assets/images/footer/map.png" alt="Bản đồ">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-bottom">
+        <div class="footer-social wow animate__fadeInUp" animate-wow-duration="1s" 
+        style="visibility:visible; animation-duration: 1s; animation-name: fadeInUp;">
+          <a href="#">   
+              <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+               <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+              <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+    <button class="topbtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+  <script src="./assets/js/jquery-3.5.1.min.js"></script>
+  <script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+  <script src="./assets/js/slick.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/wow.min.js"></script>
+  <script src="https://kit.fontawesome.com/e97e4b8b13.js" crossorigin="anonymous"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      //1. Viết sự kiện cho slide
+      $(".slide-client").slick({
+                dots: true,
+                cssEase: 'linear',
+                fade: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                 autoplaySpeed: 5000  
+      });
+       //2. Viết sự kiện cho nút nút quay lại đầu trang
+       $(window).scroll(function(){
+                if($(this).scrollTop() > 40){
+                    $('.topbtn').fadeIn();
+                }else{
+                    $('.topbtn').fadeOut();
+                }
+            });
+        $(".topbtn").click(function(){
+                $('html, body').animate({scrollTop:0},800);
+        });
+        //3. Viết sự kiện đóng mở menu
+        // $('.menu-toggle').click(function(){
+        //   $('header-menu').toggleClass('active');
+        // });
+
+    });
+    function toggleMenu(){
+      const toggleMenu = document.querySelector('.toggleMenu');
+      const navigation = document.querySelector('.navigation');
+      toggleMenu.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+  </script>
+</html>
